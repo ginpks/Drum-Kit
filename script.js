@@ -13,31 +13,31 @@ const buttons = document.querySelectorAll(".btn")
 
 function audioHandler(value) {
     switch(value) {
-        case "A Clap":
+        case "A - Clap":
             clap.play();
             break;
-        case "Hi-hat":
+        case "S - Hi-hat":
             hiHat.play();
             break;
-        case "Kick":
+        case "D - Kick":
             kick.play();
             break;
-        case "Open-hat":
+        case "F - Open-hat":
             openHat.play();
             break;
-        case "Boom":
+        case "G - Boom":
             boom.play();
             break;
-        case "Ride":
+        case "H - Ride":
             ride.play();
             break;
-        case "Snare":
+        case "J - Snare":
             snare.play();
             break;
-        case "Tom":
+        case "K - Tom":
             tom.play();
             break;
-        case "Tink":
+        case "L - Tink":
             tink.play();
             break;
     }
