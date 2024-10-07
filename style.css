@@ -28,10 +28,48 @@ form{
     font-family: "Amatic SC", sans-serif;
 }
 
+.btn:hover {
+    background-color: rgb(255,255,255, 0.1);
+}
+
 img {
     height: 30vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: -20vh;
+}
+
+@media only screen and (max-width: 450px) {
+    img {
+        display: none;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .btn {
+        font-size: 30px;
+        margin: 3px;
+    }
+
+}
+
+@media only screen and (max-height: 400px) {
+    img {
+        display: none;
+    }
+
+    form {
+        height: 100vh;
+    }
+
+    .btn {
+        font-size: 30px;
+        margin: 2px;
+    }
+
 }

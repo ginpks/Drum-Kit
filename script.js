@@ -11,37 +11,73 @@ const tink = new Audio("sounds/tink.wav");
 
 const buttons = document.querySelectorAll(".btn")
 
+function audioHandler(value) {
+    switch(value) {
+        case "Clap":
+            clap.play();
+            break;
+        case "Hi-hat":
+            hiHat.play();
+            break;
+        case "Kick":
+            kick.play();
+            break;
+        case "Open-hat":
+            openHat.play();
+            break;
+        case "Boom":
+            boom.play();
+            break;
+        case "Ride":
+            ride.play();
+            break;
+        case "Snare":
+            snare.play();
+            break;
+        case "Tom":
+            tom.play();
+            break;
+        case "Tink":
+            tink.play();
+            break;
+    }
+}
+
 buttons.forEach(button => {
     button.addEventListener('click', (event) => {
         const value = event.target.value;
-        switch(value) {
-            case "Clap":
+        audioHandler(value);
+    })
+})
+
+document.addEventListener('keydown', (event) => {
+        switch(event.key) {
+            case "a":
                 clap.play();
                 break;
-            case "Hi-hat":
+            case "s":
                 hiHat.play();
                 break;
-            case "Kick":
+            case "d":
                 kick.play();
                 break;
-            case "Open-hat":
+            case "f":
                 openHat.play();
                 break;
-            case "Boom":
+            case "g":
                 boom.play();
                 break;
-            case "Ride":
+            case "h":
                 ride.play();
                 break;
-            case "Snare":
+            case "j":
                 snare.play();
                 break;
-            case "Tom":
+            case "k":
                 tom.play();
                 break;
-            case "Tink":
+            case "l":
                 tink.play();
                 break;
         }
-    })
 })
