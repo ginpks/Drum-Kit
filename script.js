@@ -1,12 +1,12 @@
-const clap = new Audio("clap.wav");
-const hiHat = new Audio("hihat.wav");
-const kick = new Audio("kick.wav");
-const openHat = new Audio("openhat.wav");
-const boom = new Audio("boom.wav");
-const ride = new Audio("ride.wav");
-const snare = new Audio("snare.wav");
-const tom = new Audio("tom.wav");
-const tink = new Audio("tink.wav");
+const clap = new Audio("sounds/clap.wav");
+const hiHat = new Audio("sounds/hihat.wav");
+const kick = new Audio("sounds/kick.wav");
+const openHat = new Audio("sounds/openhat.wav");
+const boom = new Audio("sounds/boom.wav");
+const ride = new Audio("sounds/ride.wav");
+const snare = new Audio("sounds/snare.wav");
+const tom = new Audio("sounds/tom.wav");
+const tink = new Audio("sounds/tink.wav");
 
 
 const buttons = document.querySelectorAll(".btn")
