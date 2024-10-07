@@ -13,7 +13,7 @@ const buttons = document.querySelectorAll(".btn")
 
 function audioHandler(value) {
     switch(value) {
-        case "Clap":
+        case "A Clap":
             clap.play();
             break;
         case "Hi-hat":
