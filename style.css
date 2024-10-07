@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #EFC3E6 0%, #EFC3E6 50%, paleturquoise 50%, paleturquoise 100%);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.btn {
+    margin: 5px;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F0E6EF;
+    box-shadow: none;
+    border: solid 1px;
+    color: #2F0A28;
+    font-family: "Amatic SC", sans-serif;
+}
+
+img {
+    height: 30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20vh;
+}
